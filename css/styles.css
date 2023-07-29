@@ -6,10 +6,9 @@
     font-family: 'Dosis', sans-serif;
 }
 
-/* #532f52 */
 /* variables */
 :root {
-    --main-color: #bb74b8;
+    --main-color: #8A2BE2;
     --main-text-color: #fff;
     --border-color: #999;
     --bio-bg-color: #1e2a3a;
