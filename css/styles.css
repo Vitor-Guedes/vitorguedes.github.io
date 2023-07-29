@@ -161,13 +161,15 @@
     font-size: 32px;
 }
 
-#skills-container {
+#skills-container,
+#certification-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
 }
 
-.skills-box {
+.skills-box,
+.certification-box {
     flex: 1 1 33%;
     max-width: 33%;
     margin-bottom: 35px;
@@ -184,6 +186,11 @@
 .skills-box i {
     font-size: 40px;
     margin-right: 10px;
+}
+
+.certification-box img {
+    max-width: 280px;
+    max-height: 200px;
 }
 
 /* mobile */
@@ -222,10 +229,16 @@
         margin: 20px auto;
     }
 
-    .skills-box {
+    .skills-box,
+    .certification-box {
         flex: 1 1 100%;
         max-width: 100%;
         margin-bottom: 40px;
         text-align: left;
+    }
+
+    .certification-box img {
+        max-width: 280px;
+        max-height: 200px;
     }
 }
